@@ -8,8 +8,12 @@ var database;
 
 var form, player, game;
 
+// create variables for car sprites 
+
 
 function setup(){
+  
+  // full screen 
   canvas = createCanvas(400,400);
   database = firebase.database();
   game = new Game();

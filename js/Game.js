@@ -26,14 +26,31 @@ class Game {
       form = new Form();
       form.display();
     }
+    
+    // add sprites for car1,car2,car3 and car4
+    
+    // assign to an array cars
   }
 
   play(){
     form.hide();
-    textSize(30);
-    text("Game Start", 120, 100)
+   
     Player.getPlayerInfo();
 
+    // if allPlayers is not equal to undefined
+    
+    // set values for x, y, index
+    
+    
+    //use for loop to write code for each player
+    
+        //position cars 
+    
+        //use game camera
+    
+    
+    
+    // when up arrow key is pressed, increase player distance and update in rtdb
     
   }
 }
